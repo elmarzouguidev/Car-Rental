@@ -1,0 +1,9 @@
+<?php
+
+namespace App\Modules\CarRental\Enums;
+
+enum InspectionType: string
+{
+    case Pickup = 'pickup';
+    case Return = 'return';
+}
